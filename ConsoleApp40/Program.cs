@@ -49,6 +49,14 @@ namespace ConsoleApp40
             Console.Write(" [1]   " +"[2]  " + " [3]   " + "[4]   " + "[5]");
             color(day);
         }
+        static void decision ()
+        {
+            Console.Write("Choose the 1st Color: ");
+            string one = Console.ReadLine();
+            Console.WriteLine();
+            Console.Write("Choose the 2nd Color: ");
+            string second = Console.ReadLine();
+        }
         static void color (string day)
         {
             Stack<string> mixhist = new Stack<string>();
