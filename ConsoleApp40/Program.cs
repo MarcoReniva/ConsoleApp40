@@ -51,7 +51,8 @@ namespace ConsoleApp40
         }
         static void color (string day)
         {
-            
+            Stack<string> mixhist = new Stack<string>();
+            mixhist.Push("1 + 2 = Green");
         }
     }
 }
