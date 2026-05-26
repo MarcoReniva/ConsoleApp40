@@ -10,7 +10,6 @@ namespace ConsoleApp40
     {
         static void Main(string[] args)
         {
-            string day = "";
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write('C');Console.ResetColor();
             Console.ForegroundColor= ConsoleColor.Blue;
@@ -47,7 +46,6 @@ namespace ConsoleApp40
             Console.ResetColor();
             Console.WriteLine();
             Console.Write(" [1]   " +"[2]  " + " [3]   " + "[4]   " + "[5]");
-            color(day);
         }
         static void decision ()
         {
@@ -57,10 +55,9 @@ namespace ConsoleApp40
             Console.Write("Choose the 2nd Color: ");
             string second = Console.ReadLine();
         }
-        static void color (string day)
+        static void color ()
         {
             Stack<string> mixhist = new Stack<string>();
-            mixhist.Push("1 + 2 = Green");
         }
     }
 }
